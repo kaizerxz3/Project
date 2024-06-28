@@ -1,0 +1,285 @@
+@media (max-width:1024px){
+    .container{
+        max-width: 900px;
+    }
+    .ulli ul{
+        column-gap: 10px;
+    }
+    .header_c{
+        column-gap: 20px;
+    }
+    .burger{
+        display: none;
+    }
+    .rev{
+        column-gap: 5px;
+        padding-right: 10px;
+    }
+    .glav{
+        padding-left: 70px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 50%;
+    }
+    .ban1 img{
+        width: 50%;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+    .card2{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+    .anna_card{
+        padding-top: 20px;
+    }
+    .photo1{
+        width: 460px;
+        top: -60px;
+        left: -30px;
+    }
+    .photo2{
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        left: 110px;
+        top: 10px;
+    }
+    .svyaz_input{
+        width: 400px;
+        box-shadow: 0px 0px 40px 0px #77CDFF4D;
+    }
+    .input{
+        width: 95%;
+    }
+    .a{
+        width: 95%;
+    }
+    .b{
+        width: 95%;
+    }
+    .photo4{
+        width: 32%;
+        bottom: -100px;
+    }
+    .photo3{
+        top: 20px;
+    }
+    .ban3{
+        row-gap: 120px;
+    }
+    .voprosy{
+        margin-bottom: 150px;
+        margin-top: 0;
+    }
+    .ulli_foot ul{
+        column-gap: 30px;
+    }
+    footer .foot2{
+        column-gap: 50px;
+    }
+}
+@media(max-width:430px){
+    .container{
+        max-width: 95%;
+    }
+    .icon{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .lang{
+        display: none;
+    }
+    .ulli{
+        display: none;
+    }
+    .rev{
+        display: none;
+    }
+    .glav{
+        padding-left: 15px;
+    }
+    .ban h1{
+        font-size: 24px;
+    }
+    .ban1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ban1 img{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        text-align: justify;
+    }
+    .uslug h2{
+        font-size: 24px;
+    }
+    .uslug p{
+        font-size: 14px;
+    }
+    .uslugi{
+        position: relative;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+        padding-bottom: 60px;
+        position: relative;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+        position: relative;
+    }
+    .ca1{
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca1 img{
+        position: absolute;
+        top: -70px;
+    }
+    .ca2{
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca2 img{
+        position: absolute;
+        top: 170px;
+    }
+    .ca3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca3 img{
+        position: absolute;
+        top: 430px;
+    }
+    .ca4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca4 img{
+        position: absolute;
+        top: -60px;
+    }
+    .ca5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca5 img{
+        position: absolute;
+        top: 180px;
+    }
+    .ca6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: white;
+        width: 366px;
+        height: 180px;
+        box-shadow: 0px 0px 25px 0px #0000000D;
+        border-radius: 20px;
+    }
+    .ca6 img{
+        position: absolute;
+        top: 430px;
+    }
+    .photo1{
+        display: none;
+    }
+    .photo2{
+        display: none;
+    }
+    .in1{
+        width: 80%;
+        padding-left: 370px;
+    }
+    .input h3{
+        font-size: 18px;
+    }
+    .input p{
+        font-size: 12px;
+    }
+    .photo3{
+        width: 30%;
+        top: 0;
+    }
+    .ostal h2{
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .ostal p{
+        font-size: 12px;
+    }
+    .voprosy_card{
+        width: 80%;
+    }
+    .card3{
+        width: 95%;
+    }
+    .ban3{
+        row-gap: 100px;
+    }
+    .photo4{
+        bottom: 0;
+    }
+    .ulli_foot ul{
+        display: none;
+    }
+    .ulli_foot2 ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .li2::after{
+        top: 27px;
+        left: -22px;
+    }
+    .li3::after{
+        top: 55px;
+        left: -22px;
+    }
+}

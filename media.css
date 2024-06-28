@@ -1,0 +1,135 @@
+@media (width:320px){
+
+    .container{
+        width: 320px;
+        height: 100%;
+    }
+
+    .header__top{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .header__soc{
+        width: 90px;
+        height: 30px;
+        margin: 0;
+    }
+
+    .header__logo{
+        width: 92px;
+        height: 45px;
+        margin: 0;
+    }
+
+    .header__top__info{
+        display: none;
+    }
+
+    .lang{
+        display: none;
+    }
+
+    .header__call{
+        display: none;
+    }
+
+    .header__main{
+        width: 300px;
+        height: 231px;
+        margin: 0;
+    }
+
+    .header__main h1{
+        width: 300px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        margin: 0;
+    }
+
+    .header__main p{
+        font-weight: 400; 
+        font-size: 12px;
+        line-height: 150%;
+        width: 300px;
+        height: 90px;
+        margin: 0;
+    }
+
+    .header__main a{
+        width: 300px;
+        height: 48px;
+    }
+
+    .btn__call{
+        margin: 0;
+    }
+
+    header .container{
+        background-image: url(img/white-cloud\ 1.svg);
+        width: 320px;
+        height: 568px;
+    }   
+
+    .tree{
+        display: none;
+    }
+
+    .str{
+        display: none;
+    }
+
+    .why__text{
+        margin: 0;
+        width: 300px;
+        height: 72px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .header__footer{
+        display: none;
+    }
+
+    .see__all{
+        display: none;
+    }
+
+    .burger{
+        width: 37px;
+        height: 4px;
+        background-color: black;
+        background-image: url(img/burgerimg.svg);
+        position: relative;
+        top: 18px;
+        left: 180px;
+
+        
+    }
+
+    .burger::before{
+        content: "";
+        width: 37px;
+        height: 4px;
+        background-color: black;
+        background-image: url(img/burgerimg.svg);
+        position: absolute;
+        top: -9px;
+    }
+
+    .burger::after{
+        content: "";
+        width: 37px;
+        height: 4px;
+        background-color: black;
+        background-image: url(img/burgerimg.svg);
+        position: absolute;
+        top: 9px;
+    }
+
+}
